@@ -31,7 +31,7 @@ fun ContactsNotGrantedScreen(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = stringResource(R.string.alert_contacts_not_granted),
+            text = stringResource(R.string.alert_permissions_not_granted),
             textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.height(24.dp))
